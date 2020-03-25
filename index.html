@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Be alert girls</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tricks.html">Trickes to use</a></li>
+      <li><a href="fghd.html">previous cases</a></li>
+      <li><a href="login.html">login/sign up</a></li>
+
+    </ul>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <li><a href="index.html">Home</a></li>
+      <li><a href="tricks.html">Trickes to use</a></li>
+      <li><a href="fghd.html">previous cases</a></li>
+      <li><a href="login.html">login/sign up</a></li>
+
+  </div>
+
+  <div id="main">
+    <h1>"BE ALERT AND STAY STRONG GIRLS."</h1>
+  </div>
+  <!-- <div >
+    <MARQUEE behavior="scroll"  scrollamount="20sec"   direction="left" width="100%">
+      -->
+      
+      <img src="2.jpg"width="205" height="200" border-style="2px solid">
+      <img src="3.jpg"width="205" height="200">
+      <img src="4.jpg" width="205" height="200">
+      <img src="5.jpg" width="205" height="200">
+      <img src="6.jfif" width="205" height="200">
+      <!-- <img src="7.jfif"width="205" height="200"> -->
+      <img src="8.jfif" width="205" height="200">
+      <img src="girlabuse.jpg" width="205" height="200">
+
+      <!-- </MARQUEE> -->
+  <!-- </div> -->
+ 
+  <h1 id="head">Safety tips</h1>
+    
+    <p style="color:green">1)Stay in a well-lit public area. Don’t go home or turn away from crowds. Walk into a store or a coffee shop and ask for help.</p>
+    
+    <p style="color:green">2)Call the police. Find a well-lit public area and dial 911 or your local emergency services if you feel you’re in danger.</p>
+    <p style="color:green">3)Carry protection. Whether pepper spray, a personal safety alarm, or a lipstick taser, self-defense tools can help you feel more at ease</p>
+    
+    <footer>
+     <p>created by chakravaram.saitejaswi</p> 
+    </footer>
+  
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+</body>
+</html>
