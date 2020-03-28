@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 <head>
 <title>Form site</title>
@@ -16,7 +16,7 @@
  </style>
  <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body >
     <nav class="navbar">
         <span class="open-slide">
           <a href="#" onclick="openSlideMenu()">
@@ -51,7 +51,6 @@ Username : <input type="text" name="username"><br><br>
 Password : <input type="password" name="password"><br><br>
 <input type="submit" value="Submit">
 </form>
-
 </body>
 </html> -->
 <html lang="en">
@@ -75,16 +74,20 @@ Password : <input type="password" name="password"><br><br>
     </div>
     <div id="loginform">
       <h1>Login</h1>
-      <input type="email" placeholder="Email"><br />
-      <input type="password" placeholder="Password"><br />
-      <button type="button" name="button">Login</button>
+      <input type="email" placeholder="Email" required><br />
+      <input type="password" placeholder="Password"  required><br />
+      <input type="text" placeholder="suggestion"  required><br />
+      <p id="demo"></p>
+      <button type="button" name="button" onclick='document.getElementById("demo").innerHTML = "tq for suggestion we are soo happy that u suggested us"' >Login</button>
+
     </div>
     <div id="signupform">
       <h1>SIGN UP</h1>
-      <input type="text" placeholder="Full Name"><br />
-      <input type="email" placeholder="Email"><br />
-      <input type="password" placeholder="Password"><br />
-      <button type="button">SIGN UP</button>
+      <input type="text" placeholder="Full Name"  required><br />
+      <input type="email" placeholder="Email"  required><br />
+      <input type="password" placeholder="Password"  required><br />
+      <p id="dem"></p>
+      <button type="button" name="button" onclick='document.getElementById("dem").innerHTML = "tq for SignUp"' >SignUp</button>
     </div>
 
     <div id="login_msg">
